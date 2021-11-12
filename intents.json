@@ -1,0 +1,280 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        " whats up",
+        "hola"
+      ],
+      "responses": [
+
+       "Good to see you again", "Hi there, how can I help?"],
+      "context": [
+
+      ]
+    },
+    {
+      "tag": "morning_greet",
+      "patterns": [
+        "morning","good morning"
+      ],
+      "responses": [
+        "very good morning"
+      ]
+    },
+    {
+      "tag": "user_greet",
+      "patterns": [
+        "good day"],
+      "responses": [
+        "thankyou same too you"
+      ]
+    },
+    {
+      "tag": " noon greet",
+      "patterns" :
+    [
+      "afternoon","noon","good noon","good afternoon"
+    ],
+    "responses"
+    :
+    [
+      "good afternoon"
+    ]
+    },
+    { "tag": "evening-greet",
+      "patterns": [
+        "evening","good evening"
+      ],
+      "responses": [
+        "good evening"
+      ]
+    },
+    {"tag": "night_greet",
+      "patterns": [
+        "night", "good night"
+      ],
+      "responses": [
+        "very good night sir...",
+        "sleep well....."
+      ]
+    },
+    {
+      "tag": "queries",
+      "patterns" :[
+        "how can you help me", "why are you here", "what do you do",
+        "what help do you provide"
+      ],
+      "responses": [
+        "i m your virtual guide , i will be guiding you through the emerging problems"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [   "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context": []
+    },
+    {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "classes",
+      "patterns": ["classes",
+      " available class",
+        "what classes do you offer?",
+        "what are the avialable classes?"
+      ],
+      "responses": [
+       " 1.we provide  Audio \n 2. we provide basic video ,\n 3.we provide premium video "
+
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": ["Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "how to pay"
+      ],
+      "responses": [
+        "We accept most major credit cards, and google pay , phone pe and cash also"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Joke",
+        "Make me laugh"
+
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+        "I ate a clock yesterday, it was very time-consuming",
+        "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+        "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+        "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+        "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+        "What do you call a snowman with a suntan? A puddle.",
+        "How does a penguin build a house? Igloos it together",
+        "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+        "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+        "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do for me?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. \n For suggestions to help me improve, send an email to ayan.talkeng@gmail.com . Thank you!! "
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Identity",
+      "patterns": [
+        "Who are you",
+        "what are you"
+      ],
+      "responses": [
+        "I am Talkbot, a Deep-Learning chatbot"
+      ]
+    },
+    {
+      "tag": "datetime",
+      "patterns": [
+        "What is the time",
+        "what is the date",
+        "date",
+        "time",
+        "tell me the date","day","what day is is today"
+      ],
+      "responses": [
+        "Date and Time"
+      ]
+    },
+    {
+      "tag": "programmer",
+      "patterns": [
+        "Who made you",
+        "who designed you",
+        "who programmed you",
+        "who is your developer"
+
+      ],
+      "responses": [
+        "I was develop by Er.Ayan Pal."
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+
+        "you are dumb",
+
+        "shut up",
+        "idiot"
+      ],
+      "responses": [
+        "Well that hurts :("
+      ]
+    },
+    {
+      "tag": "activity",
+      "patterns": [
+        "what are you doing",
+        "what are you upto"
+      ],
+      "responses": [
+        "Talking to you, of course!"
+      ]
+    },
+    {
+      "tag": "exclaim",
+      "patterns": [
+        "Awesome",
+        "Great",
+        "I know",
+        "ok",
+        "yeah"
+      ],
+      "responses": [
+        "Yeah!"
+      ]
+    },
+    {
+      "tag": "suggest",
+      "patterns": [
+        "you are useless","useless","suggest","suggestions","you are bad"
+      ],
+      "responses": [
+        "Please mail your suggestions to ted.thedlbot.suggestions@gmail.com. Thank you for helping me improve!"
+      ]
+    },
+    {"tag": "riddle",
+      "patterns": [
+        "Ask me a riddle",
+        "Ask me a question",
+        "Riddle"
+      ],
+      "responses": [
+        "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+        "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+        " How can a girl go 25 days without sleep?.....She sleeps and night!",
+        "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+        " What will you actually find at the end of every rainbow?.....The letter 'w'",
+        "What can be caught but never thrown?.....A cold!",
+        "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+        " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+        "Why can't a bike stand on it's own?.....It is two-tired."
+      ],
+      "context": [
+        "riddles"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you","when were you made","what is your age"
+      ],
+      "responses": [
+        "I was made in 2021, if that's what you are asking!"
+      ]
+    }
+
+  ]
+}
